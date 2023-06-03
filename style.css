@@ -1,0 +1,226 @@
+@font-face{
+  font-family: 'font';
+  src: url('https://raw.githubusercontent.com/steyr109/steyr109.github.io/gh-pages-branch/Genshin_Impact.ttf');
+}
+
+.headerlogo{
+  height: 50px;
+  width: 50px;
+  background-color: #e6e6e6;
+  font-family: "font";
+  text-align: center;
+  font-size: 32px;
+  color: #FFFFFF;
+  cursor: pointer;
+  text-shadow: black 0px 0px 2px;
+}
+
+body{
+  background-size: cover;
+  backdrop-filter: blur(3px);
+    background: url('https://raw.githubusercontent.com/steyr109/steyr109.github.io/gh-pages-branch/liyue_long.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+}
+
+h2{
+  font-family:"font";
+  font-size: 20px;
+  color: #FFFAFA;
+  text-shadow: black 0px 0px 2px;
+}
+li, a{
+  font-family:"font";
+  font-weight: 500;
+  font-size: 16px;
+  color: #ccc;
+  text-shadow: black 0px 0px 2px;
+  text-decoration: none;
+}
+
+header{
+  opacity: 0.8;
+  background-color: #171717;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  box-shadow: 0 3px 7px 0 rgba(0,0,0,0.55);
+}
+
+footer{
+  display: flex;
+  background-color: #144f11;
+  align-items: center;
+  height: 180px;
+  wight: auto;
+  padding: 30px 10%;
+  justify-content: space-between;
+}
+
+.navbar{
+  list-style: none;
+}
+.navbar li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navbar li a{
+  transition: all 0.3s ease 0.1s;
+}
+
+.navbar li a:hover {
+  color: #fff;
+  text-shadow: #fff 0px 0px 2px;
+}
+
+.contactbar{
+  
+}
+.contactbar li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.info{
+  display: flex;
+  height: 600px;
+  background: url("https://raw.githubusercontent.com/steyr109/steyr109.github.io/gh-pages-branch/info_background.png");
+  background-color: rgba(192,210,192,0.3);
+  background-position: center;
+  align-items: center;
+}
+.info_title{
+  margin-left: 10%;
+  width: auto;
+  font-family:"font";
+  font-size: 32px;
+  color: #FFFFFF;
+  text-shadow: black 0px 0px 2px;
+  float: left;
+}
+.info_title b{
+  font-size: 58px;
+  display: flex;
+}
+
+.info_text{
+  display: flex;
+  width: 500px;
+  min-width: 500px;
+  margin-left: 20%;
+  margin-right: auto;
+  float: left;
+  font-family:"font";
+  font-size: 24px;
+  color: #FFFFFF;
+  text-shadow: black 0px 0px 2px;
+}
+
+.prices{
+  disaply: flex;
+  align-items: center;
+  height: 800px;
+}
+.blur{
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(3px);
+  height: auto;
+	width: 100%;
+}
+
+.price_title{
+  padding: 50px 0;
+  font-family:"font";
+  font-size: 40px;
+  color: #FFFFFF;
+  text-shadow: black 0px 0px 2px;
+  width: 100%;
+  text-align: center;
+}
+
+.catalog{
+  transition: all 0.3s ease 0s;
+  float:left;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 200px;
+  height: 450px;
+  background: url('https://raw.githubusercontent.com/steyr109/steyr109.github.io/gh-pages-branch/banner1.png');
+  background-position: center;
+}
+.catalog:hover{
+  width: 250px;
+  background: url('https://raw.githubusercontent.com/steyr109/steyr109.github.io/gh-pages-branch/banner12.png');
+  transition: all 0.3s ease 0s;
+}
+.catalog2{
+  transition: all 0.3s ease 0s;
+  float:left;
+  text-align: center;
+  width: 200px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  background: url('https://raw.githubusercontent.com/steyr109/steyr109.github.io/gh-pages-branch/banner2.png');
+  background-position: center;
+}
+.catalog2:hover{
+  width: 250px;
+  background: url('https://raw.githubusercontent.com/steyr109/steyr109.github.io/gh-pages-branch/banner22.png');
+  transition: all 0.3s ease 0s;
+}
+.catalog3{
+  transition: all 0.3s ease 0s;
+  float:left;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 200px;
+  height: 450px;
+  background: url('https://raw.githubusercontent.com/steyr109/steyr109.github.io/gh-pages-branch/banner3.png');
+  background-position: center;
+}
+.catalog3:hover{
+  width: 250px;
+  background: url('https://raw.githubusercontent.com/steyr109/steyr109.github.io/gh-pages-branch/banner32.png');
+  transition: all 0.3s ease 0s;
+}
+.catalog_text{
+  max-width: 170px;
+  padding: 50px 0;
+  font-family:"font";
+  font-size: 24px;
+  color: #FFFFFF;
+  text-shadow: black 0px 0px 2px;
+}
+.banner_button{
+  margin-top: 250px;
+  height: 35px;
+  wight: 100px;
+  background-color: #111111;
+  font-family:"font";
+  font-size: 24px;
+  color: #FFFFFF;
+  text-shadow: black 0px 0px 2px;
+}
+.banner_button:hover{
+  cursor: pointer;
+}
+.row{
+  --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
